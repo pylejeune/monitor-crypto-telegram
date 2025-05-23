@@ -13,7 +13,8 @@ RUN pip install --no-cache-dir requests
 # Variables d'environnement (surchargeables à l'exécution)
 ENV TELEGRAM_BOT_TOKEN=""
 ENV TELEGRAM_CHAT_ID=""
-ENV PRICE_THRESHOLD="1.01"
+ENV UPPER_THRESHOLD=""
+ENV LOWER_THRESHOLD=""
 ENV POLL_INTERVAL="60"
 
 # Lancement du script
